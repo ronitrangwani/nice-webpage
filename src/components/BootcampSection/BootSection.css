@@ -1,0 +1,148 @@
+.bootcamp-section {
+    justify-content: center;
+    padding: 68px;
+}
+
+.bootcamp-name {
+    background-color: #ffd7b1;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #161e3c;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.selected-bootcamp-name {
+    cursor: pointer;
+    background-color: #fb9b43;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #161e3c;
+}
+
+.bootcamp-title {
+    color: #161e3c;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.1;
+}
+
+.bootcamp-detail-card {
+    display: flex;
+    background-color: #ffd7b1;
+    color: #161e3c;
+    border-radius: 12px;
+    padding: 60px;
+}
+
+.contained-button {
+    font-family: "Nunito Sans", sans-serif;
+    align-items: center;
+    background: #161e3c;
+    border-radius: 8px;
+    display: flex;
+    gap: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 12px 48px;
+    cursor: pointer;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.contained-button:hover img {
+    transform: translateX(50%);
+}
+
+.bootcamp-names {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.bootcamp-details {
+    width: 50%;
+    justify-content: right;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.bootcamp-details-heading {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bootcamp-details-description {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.bootcamp-detail-img {
+    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .bootcamp {
+        justify-content: center;
+        padding: 30px;
+    }
+    .bootcamp-name {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .selected-bootcamp-name {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .bootcamp-detail-card {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px;
+        align-items: center;
+        text-align: -webkit-center;
+    }
+    .bootcamp-details-heading {
+        font-size: 34px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .bootcamp-details-description {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .bootcamp-details {
+        width: 100%;
+        justify-content: center;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .bootcamp-detail-img {
+        width: 100%;
+        text-align: center;
+    }
+    .bootcamp-title {
+        font-size: 35px;
+    }
+    .contained-button {
+        font-size: 18px;
+    }
+}

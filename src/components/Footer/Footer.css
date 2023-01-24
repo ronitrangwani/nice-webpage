@@ -1,0 +1,34 @@
+.list-item>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.list-item>ul>li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-left: 10px;
+}
+
+.footer-section {
+    background: #c1cfff;
+    color: #161e3c;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

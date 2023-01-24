@@ -1,0 +1,138 @@
+.hero-content {
+    background: #161e3c;
+    padding: 60px 20px;
+}
+
+.three-grey-circles {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.three-grey-circles>div {
+    margin-left: 20px;
+}
+
+.three-ticks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.image {
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    width: 400px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.hero-main-content {
+    display: flex;
+    text-align: -webkit-right;
+}
+
+.contained-yellow-button {
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: #fb9b43;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #161e3c;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.contained-yellow-button>p {
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.contained-yellow-button:hover img {
+    transform: translateX(50%);
+}
+
+.hero-main-content-right {
+    color: white;
+    align-self: center;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.main-content {
+    justify-content: right;
+    width: 50%;
+}
+
+.main-heading {
+    font-weight: 700;
+    margin-top: -12px;
+    font-size: 40px;
+}
+
+.highlighted-heading {
+    color: #fb9b43;
+    font-weight: 900;
+}
+
+.three-ticks-inner {
+    text-align: -webkit-center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.three-ticks-inner.show {
+    transform: translateY(1%);
+    opacity: 1;
+}
+
+.three-ticks-inner>h3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+    .hero-main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .three-ticks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+    .hero-main-content-right {
+        color: white;
+        align-self: center;
+        text-align: left;
+        margin-left: 0px;
+        padding-top: 50px;
+        text-align: -webkit-center;
+    }
+    .image {
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 20px; */
+    }
+    .main-content {
+        width: auto;
+    }
+    .hero-content {
+        padding: 60px 50px;
+    }
+    .main-heading {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
