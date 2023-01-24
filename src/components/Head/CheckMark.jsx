@@ -1,5 +1,5 @@
-import React from "react";
 import CheckRoundedIcon from "@mui/icons-material/CheckRounded";
+import React from "react";
 
 const CheckMark = (props) => {
   const { circleColor, width, height, tick } = props;
