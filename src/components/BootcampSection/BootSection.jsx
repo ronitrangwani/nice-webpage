@@ -1,24 +1,25 @@
 import React, { useState } from "react";
-import CORPORATE_BOOTCAMP from "../../images/BootImg.png";
-import "./BootSection.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import CORP from "../../images/BootImg.png";
+import "./BootSection.css";
+
 
 const data = {
   Corporate: {
     name: "Corporate ",
-    img: CORPORATE_BOOTCAMP,
+    img: CORP,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ",
   },
   Groups: {
     name: "Groups",
-    img: CORPORATE_BOOTCAMP,
+    img: CORP,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ",
   },
   Upcoming: {
     name: "Upcoming",
-    img: CORPORATE_BOOTCAMP,
+    img: CORP,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ",
   },
