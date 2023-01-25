@@ -1,8 +1,8 @@
 import React from "react";
-import "./Header.css";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Figure from "../../images/Figure.jpg";
 import CheckMark from "./CheckMark";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import "./Header.css";
 
 const CorrectData = [
   {
