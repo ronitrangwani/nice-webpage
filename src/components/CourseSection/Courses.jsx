@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import "./Courses.css";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import course1 from "../../images/course1.jpg";
 import course2 from "../../images/course2.jpg";
 import course3 from "../../images/course3.png";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import "./Courses.css";
+
 
 const courseData = [
   {
